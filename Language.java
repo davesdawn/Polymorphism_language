@@ -21,8 +21,13 @@ public class Language {
 
     public static void main(String[] args) {
         Language firstLanguage = new Language("GA", 5000, "Accra", "subject-verb-object");
-
+        Mayan firstMayan = new Mayan("Chontal", 60523);
+        SinoTibetan firstST = new SinoTibetan("Mandarin Chinese", 50000);
+        SinoTibetan secondST = new SinoTibetan("Burmese", 40000);
         firstLanguage.getInfo();
+        firstMayan.getInfo();
+        firstST.getInfo();
+        secondST.getInfo();
     }
 
 }
